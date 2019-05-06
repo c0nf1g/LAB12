@@ -12,3 +12,5 @@ for line in string:
     match = re.search(pattern, line)
     if match:
         files_size += int(match.group(9))
+
+print(str(files_size) + " bytes")
